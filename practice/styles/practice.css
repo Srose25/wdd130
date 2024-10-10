@@ -1,9 +1,33 @@
+/* {
+    border: 1px solid red;
+}
+
+body {
+    text-align: center;
+}*/
+
+h1 {
+    text-align: center;
+}
+
+nav, footer {
+    text-align: center;
+}
+
 .main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
 }
 
 #active {
     background-color: white;
     color:steelblue;
 }
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
