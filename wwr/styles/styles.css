@@ -65,7 +65,7 @@ footer, .social img {
 
 /*fonts and sizes*/
 .home-title, .msg h2 {
-    font-family: 'Permanent Marker', sans-serif;
+    font-family: 'Permanent Marker', sans-serif, arial;
     font-size:2em;
 }
 
