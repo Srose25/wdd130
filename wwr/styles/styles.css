@@ -3,8 +3,6 @@
 
 
 /*Grids*/
-
-
 header {
     display: grid;
     grid-template-columns: 150px auto;
