@@ -352,7 +352,7 @@ nav a:hover, footer p a:hover, .msg a:hover, .button-box a:hover {
 
 .card-img, .faq1-img, .faq2-img, #faq3, #faq5 {
     border: 10px solid #6BCDE1;
-    transition: transform .5s;
+    transition: .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
