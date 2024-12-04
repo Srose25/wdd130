@@ -197,6 +197,13 @@ footer {
     align-self: center;
     padding-bottom: 50px;
 }
+
+.rog-container, .bab-container {
+    position: relative;
+    justify-self: center;
+    align-self: center;
+  }
+  
 .rogers {
     width: 55%;
     justify-self: center;
@@ -214,8 +221,89 @@ footer {
     border: 5px solid #0d7575;
     transform: scale(1.1);
     box-shadow: 5px 5px 10px #6f7364;
+
+    opacity: 1;
+    transition: 1s ease;
+    backface-visibility: hidden;
 }
 
+.rog-text, .bab-text {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    color: black;
+  }
+
+  /*Positioning*/
+  .rog-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%, -80%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .bab-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -110%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .rog-container:hover .rogers, .bab-container:hover .babby {
+    opacity: 0.4;
+  }
+  
+  
+  .rog-container:hover .rog-text, .bab-container:hover .bab-text {
+    opacity: 1;
+  }
+
+
+/* -- This is the sample code for what I want to implement into my main code
+
+   -- I did the image overlay fade "how to" on my two pictures on my main page
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+  
+*/
 
 
 
