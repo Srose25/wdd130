@@ -21,7 +21,7 @@ example {
 
 /*General Code*/
 
-.paul-img, .carl-img, .collage-img, .map-img {
+.collage-img, .map-img {
     width: 500px;
 }
 
@@ -211,6 +211,50 @@ footer {
 }
 
 .babby, .rogers {
+    border: 5px solid #0d7575;
     transform: scale(1.1);
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+
+
+
+
+/*Page 2 (TurboSquad) All Code*/
+
+#turbo-grid {
+    font-size: 1.8em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.paul-img, .carl-img {
+    width: 425px;
+    justify-self: center;
+
+    border: 5px solid #0d7575;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.t-text1 {
+    font-size: 1.3em;
+    align-self: center;
+
+    background-color: #91d6a8;
+    color: #0d7575;
+
+    border: 15px solid #91d6a8;
+}
+
+.col-t-text2 {
+    background-color: #91d6a8;
+    color: #0d7575;
+
+    border: 15px solid #91d6a8;
 }
