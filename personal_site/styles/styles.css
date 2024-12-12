@@ -391,6 +391,8 @@ footer {
     grid-row: 1/2;
     justify-self: right;
     width: 600px;
+
+    margin-right: 150px;
 }
 
 .collage-img{
@@ -432,3 +434,7 @@ footer {
 }
 
 
+.collage-img, .map-img {
+    border: 5px solid #0d7575;
+    box-shadow: 5px 5px 10px #6f7364;
+}
